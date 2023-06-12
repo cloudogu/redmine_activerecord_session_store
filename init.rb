@@ -6,5 +6,5 @@ Redmine::Plugin.register :redmine_activerecord_session_store do
   url 'https://github.com/cloudogu/redmine_activerecord_session_store'
   author_url 'https://cloudogu.com/'
 
-  RedmineApp::Application.config.session_store :active_record_store
+  RedmineApp::Application.config.session_store :active_record_store unless Module.const_defined?(:RedmineExtensions)
 end
