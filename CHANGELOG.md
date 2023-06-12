@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Migration to append `service_ticket` column to sessions table
+- git ignore file
 
 ### Changed
 - Conditional initialization of the plugin to support the usage in Redmine and Easy Redmine
