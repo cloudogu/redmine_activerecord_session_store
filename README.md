@@ -4,7 +4,9 @@ This plugin teaches Redmine to use ActiveRecord as session store. Session data i
 
 ## Compatibilty
 
-Patched from original (https://github.com/pencil/redmine_activerecord_session_store) to work with Redmine 4.0.x
+Patched from original (https://github.com/pencil/redmine_activerecord_session_store) to work with Redmine 4+
+
+Tested with Redmine 5.0.5, but should be working fine with Redmine 4.x and possibly older versions too.
 
 ## Installation
 
