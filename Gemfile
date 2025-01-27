@@ -1,1 +1,1 @@
-gem 'activerecord-session_store', '~>2.0.0'
+gem 'activerecord-session_store', '~>2.1.0'
