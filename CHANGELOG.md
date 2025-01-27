@@ -15,4 +15,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Direct dependency to `activerecord-session-store`
 
 ### Changed
-        - Conditional initialization of the plugin to support the usage in Redmine and Easy Redmine
+- Conditional initialization of the plugin to support the usage in Redmine and Easy Redmine
