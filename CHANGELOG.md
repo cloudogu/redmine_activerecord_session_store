@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.3.0] - 2024-01-28
+### Changed
+- Use activerecord-session_store 2.1.0 for Redmine 6 compatibility
+
 ## v0.2.0 - 2023-06-23
 ### Added
 - Migration to append `service_ticket` column to sessions table
