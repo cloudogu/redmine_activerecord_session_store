@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.4.0] - 2026-11-25
+### Fixed
+- Use DB sessions on Easy8: set `EASY_SESSION_STORE`, which Easy8 reads instead of `config.session_store`. CAS single sign-out needs DB sessions (#3)
+- Drop the empty `to_prepare` block, which logged a deprecation warning on Easy8 14.11 (#3)
+
 ## [v0.3.0] - 2024-01-28
 ### Changed
 - Use activerecord-session_store 2.1.0 for Redmine 6 compatibility
